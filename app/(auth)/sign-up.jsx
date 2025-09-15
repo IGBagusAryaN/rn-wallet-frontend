@@ -7,6 +7,7 @@ import { COLORS } from "@/constants/colors";
 import { Ionicons } from "@expo/vector-icons";
 import { KeyboardAwareScrollView } from "react-native-keyboard-aware-scroll-view";
 import LottieView from "lottie-react-native";
+import { Image } from "expo-image";
 
 export default function SignUpScreen() {
   const { isLoaded, signUp, setActive } = useSignUp();
