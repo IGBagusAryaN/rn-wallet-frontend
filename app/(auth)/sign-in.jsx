@@ -103,6 +103,12 @@ export default function Page() {
             <Text style={styles.linkText}>Sign up</Text>
           </Link>
         </View>
+        <View style={{ justifyContent: "center", alignItems: "center", marginTop: 30}}>
+          <Image
+            source={require("../../assets/images/logo-auth.svg")}
+            style={{ width: 120, height: 50, opacity: 0.7 }}
+          />
+        </View>
       </View>
     </KeyboardAwareScrollView>
   );

@@ -7,7 +7,7 @@
     "icon": "./assets/images/icon.png",
     "scheme": "mobile",
     "userInterfaceStyle": "automatic",
-    "newArchEnabled": true,
+    "newArchEnabled": false,
     "ios": {
       "supportsTablet": true
     },
@@ -48,8 +48,9 @@
     "extra": {
       "router": {},
       "eas": {
-        "projectId": "bbd26a34-3707-4e1d-83ee-fe734ff7041d"
+        "projectId": "51f5f468-6501-4821-b649-b2a8348654bb"
       }
-    }
+    },
+    "owner": "aryaaw"
   }
 }
