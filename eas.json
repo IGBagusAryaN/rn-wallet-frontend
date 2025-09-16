@@ -6,25 +6,19 @@
   "build": {
     "development": {
       "developmentClient": true,
-      "distribution": "internal",
-      "env": {
-        "EXPO_NO_NEW_ARCH": "1"
-      }
+      "distribution": "internal"
     },
     "preview": {
-      "distribution": "internal",
-      "env": {
-        "EXPO_NO_NEW_ARCH": "1"
-      }
+      "android": {
+        "buildType": "apk"
+      },
+      "distribution": "internal"
     },
     "production": {
       "android": {
         "buildType": "apk"
       },
-      "autoIncrement": true,
-      "env": {
-        "EXPO_NO_NEW_ARCH": "1"
-      }
+      "autoIncrement": true
     }
   },
   "submit": {
