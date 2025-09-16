@@ -74,7 +74,7 @@ const CreateScreen = () => {
   return (
     <View style={styles.container}>
       <View style={styles.header}>
-        <TouchableOpacity style={styles.backButton}>
+        <TouchableOpacity style={styles.backButton} onPress={() => router.back()}>
           <Ionicons name="arrow-back" size={24} color={COLORS.text} />
         </TouchableOpacity>
         <Text style={styles.headerTitle}>New Transaction</Text>
@@ -138,7 +138,7 @@ const CreateScreen = () => {
         </View>
 
         <View style={styles.amountContainer}>
-          <Text style={styles.currencySymbol}>$</Text>
+          <Text style={styles.currencySymbol}>Rp</Text>
           <TextInput
             style={styles.amountInput}
             placeholder="0.00"

@@ -84,18 +84,20 @@ export const styles = StyleSheet.create({
     borderBottomColor: COLORS.border,
     paddingBottom: 16,
     marginBottom: 20,
+    gap:10
   },
   currencySymbol: {
     fontSize: 32,
     fontWeight: "bold",
     color: COLORS.text,
-    marginRight: 8,
+    marginRight: 0,
   },
   amountInput: {
     flex: 1,
     fontSize: 36,
     fontWeight: "bold",
     color: COLORS.text,
+    
   },
   inputContainer: {
     flexDirection: "row",
