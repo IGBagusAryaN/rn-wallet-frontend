@@ -19,7 +19,7 @@
       },
       "edgeToEdgeEnabled": true,
       "predictiveBackGestureEnabled": false,
-      "package": "com.aryaaaaz.mobile"
+      "package": "com.aryaantoo.mobile"
     },
     "web": {
       "output": "static",
@@ -47,8 +47,9 @@
     "extra": {
       "router": {},
       "eas": {
-        "projectId": "887ab6b1-0fb8-42dc-948b-8bf4ef49bf94"
+        "projectId": "555647c6-f123-498f-aea1-0d6ed025934f"
       }
-    }
+    },
+    "owner": "aryaantoo"
   }
 }
